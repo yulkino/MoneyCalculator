@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyCalculator", "MoneyCalculator\MoneyCalculator.csproj", "{7C609D0F-B634-45BF-8F4B-B1BFD44E0241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTests", "XUnitTests\XUnitTests.csproj", "{341827A2-F363-44F2-AA38-92C90FD62161}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C609D0F-B634-45BF-8F4B-B1BFD44E0241} = {7C609D0F-B634-45BF-8F4B-B1BFD44E0241}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C609D0F-B634-45BF-8F4B-B1BFD44E0241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C609D0F-B634-45BF-8F4B-B1BFD44E0241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C609D0F-B634-45BF-8F4B-B1BFD44E0241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C609D0F-B634-45BF-8F4B-B1BFD44E0241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341827A2-F363-44F2-AA38-92C90FD62161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341827A2-F363-44F2-AA38-92C90FD62161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341827A2-F363-44F2-AA38-92C90FD62161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341827A2-F363-44F2-AA38-92C90FD62161}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE48D2E9-240C-422A-9F64-40C0D7671896}
+	EndGlobalSection
+EndGlobal
